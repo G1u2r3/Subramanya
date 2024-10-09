@@ -26,12 +26,12 @@ Welcome to the Movie Recommendation API! This project provides a RESTful API for
 
 ## API Endpoints
 
-GET /: Welcome message.
-POST /movies/: Create a new movie.
-GET /movies/: Get all movies.
-GET /movies/{movie_id}: Get a specific movie by ID.
-POST /ratings/: Create a new rating.
-GET /recommendations/{movie_title}: Get movie recommendations based on a title.
+- **GET /**: Returns a welcome message for the API.
+- **POST /movies/**: Creates a new movie.
+- **GET /movies/**: Retrieves a list of all movies.
+- **GET /movies/{movie_id}**: Retrieves a specific movie by its ID.
+- **POST /ratings/**: Creates a new rating for a movie.
+- **GET /recommendations/{movie_title}**: Fetches movie recommendations based on a specific title.
 
 
 

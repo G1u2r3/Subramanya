@@ -24,7 +24,8 @@ Welcome to the Movie Recommendation API! This project provides a RESTful API for
    git clone <repository-url>
    cd movie-recommendation-api
 
-API Endpoints
+## API Endpoints
+
 GET /: Welcome message.
 POST /movies/: Create a new movie.
 GET /movies/: Get all movies.
